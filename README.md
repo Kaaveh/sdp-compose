@@ -28,9 +28,9 @@ fun Greeting(name: String = "Android") {
 
 ## Setup
 
-1. Add it in your root setting.gradle at the end of repositories:
+1. Add it in your setting.gradle at the end of repositories:
 ```gradle
-pluginManagement {
+dependencyResolutionManagement {
 	repositories {
 		...
 		maven { url 'https://jitpack.io' }
@@ -41,7 +41,7 @@ pluginManagement {
 2. Add the dependency
 ```gradle
 dependencies {
-        implementation 'com.github.Kaaveh:sdp-compose:1.1.0'
+	implementation 'com.github.Kaaveh:sdp-compose:1.1.0'
 }
 ```
 3. Enjoy!

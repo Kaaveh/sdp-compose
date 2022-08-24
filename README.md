@@ -2,7 +2,7 @@
 
 Did you miss [SDP](https://github.com/intuit/sdp) library from XML world? SDP-Compose bring to you SDP in your Jetpack Compose project.
 
-Bonouce: You don't need [SSP](https://github.com/intuit/ssp) library, SDP-Compose have it too!
+Bonus: You don't need [SSP](https://github.com/intuit/ssp) library, SDP-Compose have it too!
 
 ## Usage
 

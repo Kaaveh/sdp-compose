@@ -28,9 +28,9 @@ fun Greeting(name: String = "Android") {
 
 ## Setup
 
-1. Add it in your root build.gradle at the end of repositories:
+1. Add it in your root setting.gradle at the end of repositories:
 ```gradle
-allprojects {
+pluginManagement {
 	repositories {
 		...
 		maven { url 'https://jitpack.io' }

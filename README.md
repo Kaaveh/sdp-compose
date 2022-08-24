@@ -1,6 +1,6 @@
 # SDP-Compose: a scalable size unit for Jetpack Compose
 
-Did you miss [SDP](https://github.com/intuit/sdp) library from XML world? SDP-Compose bring to you SDP in your Jetpack Compose project.
+Do you miss [SDP](https://github.com/intuit/sdp) library from XML world? SDP-Compose bring to you SDP in your Jetpack Compose project.
 
 Bonus: You don't need [SSP](https://github.com/intuit/ssp) library, SDP-Compose have it too!
 

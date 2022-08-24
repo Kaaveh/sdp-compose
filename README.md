@@ -2,10 +2,9 @@
 
 Did you miss [SDP](https://github.com/intuit/sdp) library from XML world? SDP-Compose bring to you SDP in your Jetpack Compose project.
 
-Bonouce tip: You don't need [SSP](https://github.com/intuit/ssp) library, SDP-Compose have it too!
+Bonouce: You don't need [SSP](https://github.com/intuit/ssp) library, SDP-Compose have it too!
 
-# Usage
-
+## Usage
 
 ```Kotlin
 @Preview(showBackground = true)
@@ -27,4 +26,22 @@ fun Greeting(name: String = "Android") {
 
 <img style="float: right;" src="https://github.com/Kaaveh/sdp-compose/blob/main/screenshots/1.png" height="200"/>
 
-# Setup
+## Setup
+
+1. Add it in your root build.gradle at the end of repositories:
+```gradle
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+2. Add the dependency
+```gradle
+dependencies {
+        implementation 'com.github.Kaaveh:sdp-compose:1.1.0'
+}
+```
+3. Enjoy!

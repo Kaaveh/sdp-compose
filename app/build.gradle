@@ -56,5 +56,5 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
-    implementation project(":sdp-compose")
+    implementation "com.github.Kaaveh:sdp-compose:1.1.0"
 }

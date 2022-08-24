@@ -6,7 +6,8 @@ Bonouce tip: You don't need [SSP](https://github.com/intuit/ssp) library, SDP-Co
 
 # Usage
 
-```kotlin
+
+```Kotlin
 @Preview(showBackground = true)
 @Composable
 fun Greeting(name: String = "Android") {
@@ -23,5 +24,7 @@ fun Greeting(name: String = "Android") {
     )
 }
 ```
+
+<img style="float: right;" src="https://github.com/Kaaveh/sdp-compose/blob/main/screenshots/1.png" height="200"/>
 
 # Setup

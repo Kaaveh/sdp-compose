@@ -26,6 +26,16 @@ fun Greeting(name: String = "Android") {
 
 <img style="float: right;" src="https://github.com/Kaaveh/sdp-compose/blob/main/screenshots/1.png" height="200"/>
 
+For using in non-Composable functions like in typography:
+```kotlin
+val TextSmall: TextStyle
+    @Composable get() =
+        TextStyle(
+            fontFamily = yekanRegularFont,
+            fontSize = 12.ssp,
+        )
+```
+
 ## Setup
 
 1. Add it in your setting.gradle at the end of repositories:

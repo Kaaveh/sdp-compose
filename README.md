@@ -1,6 +1,6 @@
 # SDP-Compose: a scalable size unit for Jetpack Compose
 
-Do you miss [SDP](https://github.com/intuit/sdp) library from XML world? SDP-Compose bring to you SDP in your Jetpack Compose project.
+Do you miss [SDP](https://github.com/intuit/sdp) library from the XML world? SDP-Compose bring to you SDP to your Jetpack Compose project.
 
 Bonus: You don't need [SSP](https://github.com/intuit/ssp) library, SDP-Compose have it too!
 
@@ -26,7 +26,7 @@ fun Greeting(name: String = "Android") {
 
 <img style="float: right;" src="https://github.com/Kaaveh/sdp-compose/blob/main/screenshots/1.png" height="200"/>
 
-For using in non-Composable functions like in typography:
+For use in non-Composable functions, like in typography:
 ```kotlin
 val TextSmall: TextStyle
     @Composable get() =
@@ -38,7 +38,7 @@ val TextSmall: TextStyle
 
 ## Setup
 
-1. Add it in your setting.gradle at the end of repositories:
+1. Add it to your setting.gradle at the end of repositories:
 ```gradle
 dependencyResolutionManagement {
 	repositories {
@@ -51,7 +51,7 @@ dependencyResolutionManagement {
 2. Add the dependency
 ```gradle
 dependencies {
-	implementation 'com.github.Kaaveh:sdp-compose:1.1.0'
+	implementation 'com.github.Kaaveh:sdp-compose:XX.XX.XX'
 }
 ```
 3. Enjoy!
